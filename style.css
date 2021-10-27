@@ -99,8 +99,8 @@ body{
 }
 .profile{
    position:fixed;
-   right:1em;
-   right:5.5em;
+   left:1em;
+   left:5.5em;
    width:23em;
 }
 .work h2{
