@@ -1,0 +1,127 @@
+*{
+   padding:0;
+   margin:0;
+   width:100%;
+}
+body{
+   font-family:'Ubuntu', sans-serif;
+   line-height:1.4;
+   min-height:100vh;
+   width:100%;
+   color:#000;
+   background-image:url("asset/bg.png");
+   background-color: #fff;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+.detail h2{
+   text-align: center;
+   font-weight: 800;
+   font-size: 3em;
+   padding: 0.3em 0 1.5em 0;
+}
+.detail h3{
+   text-align: center;
+   font-weight: 800;
+   font-size: 1.5em;
+   padding: 0.3em 0 0.5em 0;
+}
+.detail p{
+   text-align: center;
+   font-weight: 800;
+   letter-spacing: 2px;
+}
+.title{
+   background-color: #464646;
+   font-size: 1.75em;
+   padding: 0.2em 0.2em 0.5em 0.2em;
+   width:100%;
+}
+.title a{
+   font-weight:800;
+   text-decoration: none;
+   color:#fff;
+}
+.title h3{
+   font-weight:800;
+   text-decoration: none;
+   color:#fff;
+}
+.title a:hover{
+   cursor:pointer;
+   color:aqua;
+}
+.container{
+   max-width:1320px;
+   margin: 0 auto;
+   padding: 0 0.1rem;
+}
+.name h2{
+   font-size: 2.0em;
+   text-align:center;
+}
+.navigate{
+   width:100%;
+   background-color:#282828;
+   padding: 0.2rem 2rem 0.5rem 0.2rem;
+   margin: 0;
+}
+.navigate a{
+   font-weight: 500;
+   text-decoration: none;
+   color: #fff;
+   letter-spacing:2px;
+   margin: 0 0.2em;
+   padding: 0.2em 0.4em 0.5em 0;
+}
+.navigate a:hover{
+   color: aqua;
+   text-decoration:underline;
+   text-decoration-color: aqua;
+   cursor:pointer;
+}
+.social{
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width:100%;
+   background-color: #000;
+   padding: 0.2em 2em 0.5em 0.2em;
+}
+.social-icon{
+   width:3em;
+   padding: 2px 2px 2px 2px;
+}
+.description h2{
+   letter-spacing:3px;
+   text-align:center;
+}
+.profile{
+   position:fixed;
+   right:1em;
+   right:5.5em;
+   width:23em;
+}
+.work h2{
+   text-align: center;
+   font-size: 3em;
+}
+div.gallery{
+   margin: .5em;
+   border: .1em solid #ccc;
+   float: left;
+   width: 180px;
+}
+div.gallery:hover{
+   border: 2px solid aqua;
+   cursor: pointer;
+}
+div.gallery img{
+   width:100%;
+   height:100%;
+}
+div.desc{
+   padding: .5rem;
+   text-align: center;
+}
