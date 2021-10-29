@@ -1,19 +1,24 @@
 *{
    padding:0;
    margin:0;
-   width:100%;
+}
+html{
+   min-width:100%;
+   background-size: contain;
 }
 body{
    font-family:'Ubuntu', sans-serif;
    line-height:1.4;
    min-height:100vh;
    width:100%;
+   height:auto;
    color:#000;
    background-image:url("asset/bg.png");
    background-color: #fff;
    background-position: center;
    background-repeat: no-repeat;
    background-size:cover;
+   overflow-x:hidden;
 }
 .detail h2{
    text-align: center;
@@ -33,10 +38,13 @@ body{
    letter-spacing: 2px;
 }
 .title{
+   width:100%;
+   left: 0;
+   bottom: 0;
    background-color: #464646;
    font-size: 1.75em;
-   padding: 0.2em 0.2em 0.5em 0.2em;
-   width:100%;
+   padding: 0.2em 0.2em 0.2em 0.2em;
+   margin:0;
 }
 .title a{
    font-weight:800;
@@ -99,7 +107,6 @@ body{
 }
 .profile{
    position:fixed;
-   left:1em;
    left:5.5em;
    width:23em;
 }
